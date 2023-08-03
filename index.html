@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Chart JavaScript</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Stefan Ilic">
+        <meta name="Decription" content="Building chart with Chart JavaScript library">
+        <meta name="Keywords" content="HTML, CSS , JavaScript, JS, Chart, Project, line, pie, bar">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1>Interactive Chart</h1>
+        <div>
+            <h3>Pregledi po datumu:</h3>
+            <canvas id="lineChart"></canvas>
+        </div>
+        
+        <div>
+            <h3>Pregledi u regionu:</h3>
+            <canvas class='chart2' id="pieChart"></canvas>
+        </div>
+        
+        <div>
+            <h3>Publika po godinama:</h3>
+            <canvas id="barChart"></canvas>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
